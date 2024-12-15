@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    
+}
+#nav{
+    width: 100%;
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+}
+
+#nav h5{
+    font-size: 15px;
+    border: 2px solid red;
+    font-family: sans-serif;
+    padding: 4px 9px;
+    margin: 0 3px;
+    border-radius:23px ;
+
+}
+#center{
+    height: calc(100% - 60px);
+    /* background-color: aqua; */
+    width: 100%;
+    position: relative;
+    padding: 10px 20px;
+
+}
+
+#heading h1{
+    font-size: 90px;
+    font-family: sans-serif;
+    left:50%;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-50%,0);
+    white-space: nowrap;
+    font-weight: 900;
+    font-style: italic;
+    z-index: 66;
+
+
+}
+#heading h2{
+    font-size: 90px;
+    font-family: sans-serif;
+    left:48.8%;
+    color: transparent;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width:2px ;
+
+    /* background-color: red; */
+    top:-1px;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-48.8%,0);
+    white-space: nowrap;
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+#image{
+    width: 60%;
+    /* background-color: yellow; */
+    height: 57%;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 10px;
+    
+    top:60%
+}
+
+#image img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* object-fit: cover; */
+    object-position: center;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top:40%;
+    text-transform:uppercase;
+    font-family: sans-serif;
+    transform: rotate(-30deg);
+    font-weight: 900;
+    padding: 7px 12px;
+    color: red;
+    background-color: aqua;
+    right:20%;
+    border-radius: 50%;
+}
+
+#socks{
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: cover;
+    left: 20%;
+    top:40%;
+    rotate: -10deg;
+    position: absolute;
+    border: 2px solid black;
+    background-image: url('https://media.istockphoto.com/id/1287502139/photo/winter-day-by-fireplace.jpg?s=612x612&w=0&k=20&c=lQu1z-cGq9i_WCUU74fvSUHdZAChCLboLfGBNRjL3vs=');
+}
+#socks::after{
+    content: "";
+    width: 120px;
+    height: 120px;
+    z-index: -1;
+    border: 2px solid black;
+    background-position: center;
+    background-size: cover;
+    bottom: -11px;
+    position: absolute;
+    background-image: url('https://media.istockphoto.com/id/1287502139/photo/winter-day-by-fireplace.jpg?s=612x612&w=0&k=20&c=lQu1z-cGq9i_WCUU74fvSUHdZAChCLboLfGBNRjL3vs=');
+}
+
+
+

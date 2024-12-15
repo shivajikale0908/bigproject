@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+
+}
+#part1{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 230, 0);
+}
+#part2{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgba(0, 0, 0, 0.025); */
+    background-image: url('https://images.unsplash.com/photo-1524638431109-93d95c968f03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#part3{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(18, 35, 146);
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.374);
+}
+#text{
+    position: absolute;
+    /* height: 200px; */
+    width: 250px;
+    /* background-color: red; */
+    left:9%;
+    top:30%;
+    transform: translate(0,-30);
+}
+#text h1{
+    font-size: 50px;
+    font-family: Sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: aliceblue;
+    text-transform: uppercase;
+    line-height: 47px;
+}
+
+#smallimg{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW9kZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60');
+    right:9%;
+    top:22%;
+    transform: translate(0,-30);
+    background-position: center;
+    background-size: cover;
+}
+#textin{
+    position: absolute;
+    /* width: 100%; */
+    right: -10%;
+    top:42.9%;
+    
+    transform-origin: 0% 0%;
+    /* background-color: aquamarine; */
+
+}
+#textin h1{
+    font-size: 42px;
+    font-weight: 900;
+    font-family:  Sans-serif; 
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width:2px;
+    text-transform: uppercase;
+    transform: rotate(90deg); 
+    letter-spacing: 1px;   
+}
+#nav{
+    position: absolute;
+    width: 300px;
+    height: 102px;
+    /* background-color: red; */
+    left:10%;
+    /* padding: 400px; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+#nav img{
+    height: 70px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#nav h1{
+    font-size: 6vh;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: Sans-serif;
+    color: aqua;
+
+}

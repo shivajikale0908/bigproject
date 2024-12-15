@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    font-family: sans-serif;
+    display: flex;
+
+}
+#nav{
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#rightnav{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#rightnav a{
+    margin-right: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size:14px;
+    /* margin: 15px; */
+
+}
+#rightnav i{
+    color: royalblue;
+}
+
+#textmid{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#textmid h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+#textmid p{
+    opacity: .6;
+    font-size: 15px;
+    line-height: 14px;
+    margin: 10px;
+    
+}
+#textmid a{
+    text-decoration: none;
+    color: black;
+    border-bottom:2px solid rgba(0, 0, 0, 0.246) ;
+    padding-bottom: 8px;
+    font-weight: 600;
+    opacity: .6;
+
+    
+
+}
+#left{
+    height: 100%;
+    position: relative;
+    width: 40%;
+    /* background-color: aquamarine; */
+
+}
+#right{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(9, 184, 126);
+
+}
+#rtop{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+
+}
+#rbottom{
+    height: 50%;
+    width: 100%;
+    background-image: url('https://media.istockphoto.com/id/157336489/photo/citrus-fresh-fruits.jpg?s=612x612&w=0&k=20&c=cqK1KvD4JT_l6WmV0_dDQJnCZG44dEzjfS43V-WrBJ4=');
+    background-position: center;
+    background-size: cover;
+}
+#rleft{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://media.istockphoto.com/id/509357454/photo/fresh-oranges-in-wooden-bowl-on-a-wooden-background.jpg?s=612x612&w=0&k=20&c=gKqq6hCHrOgw9S0m-C7vb8UxIXxYjCGjoyzewDDpp7Q=');
+    background-position: center;
+    background-size: cover;
+}
+#rright{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://media.istockphoto.com/id/1403953029/photo/flying-sliced-orange-with-green-leaf-isolated-on-white-background-clipping-path.webp?b=1&s=170667a&w=0&k=20&c=7pDLV8Vnerqe010iQg0B6f5TGpyVcERzmCNhwaVRWfU=');
+    background-position: center;
+    background-size: cover;
+}
+

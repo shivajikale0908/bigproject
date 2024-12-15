@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:hwb(11 31% 41% / 0.569);
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: aqua; */
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(0, 255, 55);
+    background-image: url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(240, 20%, 1%, 0.266);
+}
+#part3{
+    height: 100%;
+    width: 6%;
+    /* background-color: rgb(255, 0, 72); */
+}
+
+#text{
+    position: absolute;
+    /* height: 200px; */
+    width: 220px;
+
+    left:9%;
+    top:30%;
+    transform: 0 -30%;
+}
+#text h1{
+    font-size: 50px;
+    font-family: monument;
+    font-weight:900;
+    line-height: 48px;
+    letter-spacing: 3px;
+    
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+#smallimg{
+    position: absolute;
+    height: 220px;
+    width: 240px;
+    background-image: url('https://images.unsplash.com/photo-1529680459049-bf0340fa0755?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');
+    background-size: cover;
+    background-position:center ;
+    right:3%;
+    top:30%;
+    transform: 0 -30%;
+
+}
+
+#vertical{
+    /* background-color: red; */
+    position: absolute;
+    right: -40%;
+    transform : rotate(90deg) ;
+    transform-origin: 0% 0%;
+    top:-15px;
+
+}
+#vertical h1{
+    font-size: 40px;
+    font-family: monument;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+   
+
+
+
+}
+
+#nav{
+    position: absolute;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left:9%;
+    top:5%;
+}
+#nav img{
+    height: 50px;
+}
+#nav h1{
+    font-size:28px;
+    font-family: gilroy;
+    color: #03e0f4ad;
+    text-transform: uppercase;
+}

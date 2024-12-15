@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+#top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1696537278602-479f43f18851?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
+    background-size: cover;
+    background-position:70% 50%;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.195);
+    width: 100%;
+    min-height: inherit;
+    position: relative;
+
+
+}
+#text{
+    position: absolute;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    bottom: 20%;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#text h1{
+    font-size: 4vw;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#bottom{
+    width: 100%;
+    min-height: 40vh;
+    /* background-color: rgb(0, 30, 255); */
+    display: flex;
+    position: relative;
+}
+#bottom #one{
+    width: 25%;
+    min-height: inherit;
+    background-color:white;
+    padding: 5px;
+    
+}
+#bottom #one p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.666);
+    margin-top: 10px;
+    padding: 3px;
+
+}
+#bottom #two{
+    width: 25%;
+    min-height: inherit;
+    background-image: url('https://media.istockphoto.com/id/485878118/photo/stylish-bearded-man-walks-through-the-city.webp?s=170667a&w=0&k=20&c=lydWN96F8pI2gWZwcMHqQ03_wLEGIzRBGQZkVN0SOnE=');
+    background-size: cover;
+    background-position: center;
+}#bottom #three{
+    width: 25%;
+    min-height: inherit;
+    background-color: rgb(25, 185, 54);
+}#bottom #four{
+    width: 25%;
+    min-height: inherit;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 23px;
+}
+ 
+#textr{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(133, 90, 48, 0.936);
+    margin-left: 6vw;
+    width: 100%;
+}
+#textr p{
+    align-items: flex-start;
+
+}
+#textr i{
+    color: aliceblue;
+    padding-right:2px ;
+    padding:2px ;
+}
+#icon{
+    display: flex;
+    
+    
+}
+#three #topp{
+width: 100%;
+height: 50%;
+background-image: url('https://images.unsplash.com/photo-1471400974796-1c823d00a96f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzMDE1fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60');
+background-size: cover;
+background-position: center;
+}
+
+#three #bottom{
+    width: 100%;
+    height: 50%;
+    background-image: url('https://images.unsplash.com/photo-1512776937428-7095cb553e87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnwzMTc4NTcyfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60');
+    background-size: cover;
+    background-position: center;
+    
+}
+.notf{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+.notf p{
+    width: 80%;
+    position: absolute;
+    left:35px;
+    font-family: sans-serif;
+    font-weight:500 ;
+
+}
+.notf #photo{
+    width: 24px;
+    height: 24px;
+    background-image: url('https://images.unsplash.com/photo-1545996124-0501ebae84d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=400&q=60');
+    font-size: 8px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@media(max-width:500px)
+   {
+    #text{
+        align-items: flex-start;
+        position: relative;
+
+    }
+    #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #overlay #text #textr{
+        flex-direction: column;
+        align-items: flex-start;
+
+}
+
+      #overlay #text #textr p{
+
+        width: initial;
+        margin-top: 20px;
+      }
+      #overlay #text #textr #icon{
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        left:30%;
+        top:7vw;
+   }
+   #text h1{
+    font-size: 5vw;
+    left:20%;
+    top:4vw;
+    position: relative;
+    /* margin:-1px; */
+
+   }
+   #bottom{
+    flex-direction: column;
+   }
+   #one{
+    width: 100%;
+   }
+   #two{
+    width: 100%;
+    
+   }
+   #three{
+    width: 100%;
+    
+   }
+   #four{
+    width: 100%;
+    
+   }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

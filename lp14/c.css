@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+#lnav{
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+#rnav a{
+    margin-right:20px ;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+#rnav i{
+    color: royalblue;
+}
+
+#right{
+    width: 60%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+#top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+#bottom{
+    width: 100%;
+    height: 50%;
+    background-image: url('https://media.istockphoto.com/id/1005834106/photo/hand-holding-tropical-cocktail-in-maldives.jpg?s=612x612&w=0&k=20&c=kfX6pSThYcejEf9oY95hk6QoDMfIEz-fYQbctX3l5jI=');
+    background-size:cover ;
+    background-position: center;
+}
+
+#topleft{
+    width: 55%;
+    height: 100%;
+    background-image: url('https://media.istockphoto.com/id/1351746589/photo/orange-fruit-slices-citrus-arrangement-full-frame-background.jpg?s=612x612&w=0&k=20&c=u1y5lw-mFDOypALkaiAVSLGnXLhml29AuNHyLwV0F8E=');
+    background-size:cover ;
+    background-position: center;
+
+
+}
+#topright{
+    width: 45%;
+    height: 100%;
+    background-image: url('https://media.istockphoto.com/id/174874581/photo/fresh-orange-and-slices.jpg?s=612x612&w=0&k=20&c=roAbkO4ofGKfv8pzKGl5GDK6OUVwVOBPmecE0a56g9k=');
+    background-size:cover ;
+    background-position:-0.12111121vw;
+
+
+
+}
+
+#left #textcenter{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#textcenter h1{
+    font-size: 40px;
+    font-weight: revert; 
+    width: 100%;
+}
+
+#textcenter p{
+    opacity: .7;
+    margin-top: 1px;
+    margin-bottom: 11px;
+    font-size: 13px;
+}
+
+#textcenter a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+@media(max-width: 500px){
+
+    #main{
+        flex-direction: column;
+    }
+
+    #main #top{
+        width: 100%;
+    }
+    #main #bottom{
+        width: 100%;
+    }
+}

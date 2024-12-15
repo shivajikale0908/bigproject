@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+#top h1{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: aliceblue;
+width: 100%;
+top:45%
+}
+
+#top{
+display: flex;
+background-color: yellow;
+width: 100%;
+height: 50%;
+background-image: url(https://images.unsplash.com/photo-1686594108849-dcaba26cdf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDUzfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60);
+background-size:cover ;
+background-position: center;
+
+
+
+}
+#bottom{
+    background-color: orange;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+#bottom1{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url(https://media.istockphoto.com/id/513438923/photo/portrait-of-diverse-crowd.jpg?s=612x612&w=is&k=20&c=pbpv_2M-z_e9ae2dSVQlFl7V2pwsAxZvSJ5QEVC7NRU=);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+#bottom2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(20, 116, 116);
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/20/21/48/oldtimer-1756680_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}#bottom3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(7, 89, 182);
+    background-image: url(https://cdn.pixabay.com/photo/2015/08/13/17/24/vintage-1950s-887272_1280.jpg);
+    background-position: center;
+    background-size: cover;
+
+}#bottom4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(183, 0, 255);
+    background-image: url(https://cdn.pixabay.com/photo/2012/02/23/08/38/rocks-15712_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
